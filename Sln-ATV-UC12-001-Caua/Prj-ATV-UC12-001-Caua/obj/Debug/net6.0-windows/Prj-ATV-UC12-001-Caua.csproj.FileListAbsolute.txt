@@ -1,0 +1,17 @@
+C:\Users\caua.schagas\source\repos\ATV-UC12-001-Caua\Sln-ATV-UC12-001-Caua\Prj-ATV-UC12-001-Caua\bin\Debug\net6.0-windows\Prj-ATV-UC12-001-Caua.exe
+C:\Users\caua.schagas\source\repos\ATV-UC12-001-Caua\Sln-ATV-UC12-001-Caua\Prj-ATV-UC12-001-Caua\bin\Debug\net6.0-windows\Prj-ATV-UC12-001-Caua.deps.json
+C:\Users\caua.schagas\source\repos\ATV-UC12-001-Caua\Sln-ATV-UC12-001-Caua\Prj-ATV-UC12-001-Caua\bin\Debug\net6.0-windows\Prj-ATV-UC12-001-Caua.runtimeconfig.json
+C:\Users\caua.schagas\source\repos\ATV-UC12-001-Caua\Sln-ATV-UC12-001-Caua\Prj-ATV-UC12-001-Caua\bin\Debug\net6.0-windows\Prj-ATV-UC12-001-Caua.dll
+C:\Users\caua.schagas\source\repos\ATV-UC12-001-Caua\Sln-ATV-UC12-001-Caua\Prj-ATV-UC12-001-Caua\bin\Debug\net6.0-windows\Prj-ATV-UC12-001-Caua.pdb
+C:\Users\caua.schagas\source\repos\ATV-UC12-001-Caua\Sln-ATV-UC12-001-Caua\Prj-ATV-UC12-001-Caua\obj\Debug\net6.0-windows\Prj-ATV-UC12-001-Caua.csproj.AssemblyReference.cache
+C:\Users\caua.schagas\source\repos\ATV-UC12-001-Caua\Sln-ATV-UC12-001-Caua\Prj-ATV-UC12-001-Caua\obj\Debug\net6.0-windows\Prj_ATV_UC12_001_Caua.Form1.resources
+C:\Users\caua.schagas\source\repos\ATV-UC12-001-Caua\Sln-ATV-UC12-001-Caua\Prj-ATV-UC12-001-Caua\obj\Debug\net6.0-windows\Prj-ATV-UC12-001-Caua.csproj.GenerateResource.cache
+C:\Users\caua.schagas\source\repos\ATV-UC12-001-Caua\Sln-ATV-UC12-001-Caua\Prj-ATV-UC12-001-Caua\obj\Debug\net6.0-windows\Prj-ATV-UC12-001-Caua.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caua.schagas\source\repos\ATV-UC12-001-Caua\Sln-ATV-UC12-001-Caua\Prj-ATV-UC12-001-Caua\obj\Debug\net6.0-windows\Prj-ATV-UC12-001-Caua.AssemblyInfoInputs.cache
+C:\Users\caua.schagas\source\repos\ATV-UC12-001-Caua\Sln-ATV-UC12-001-Caua\Prj-ATV-UC12-001-Caua\obj\Debug\net6.0-windows\Prj-ATV-UC12-001-Caua.AssemblyInfo.cs
+C:\Users\caua.schagas\source\repos\ATV-UC12-001-Caua\Sln-ATV-UC12-001-Caua\Prj-ATV-UC12-001-Caua\obj\Debug\net6.0-windows\Prj-ATV-UC12-001-Caua.csproj.CoreCompileInputs.cache
+C:\Users\caua.schagas\source\repos\ATV-UC12-001-Caua\Sln-ATV-UC12-001-Caua\Prj-ATV-UC12-001-Caua\obj\Debug\net6.0-windows\Prj-ATV-UC12-001-Caua.dll
+C:\Users\caua.schagas\source\repos\ATV-UC12-001-Caua\Sln-ATV-UC12-001-Caua\Prj-ATV-UC12-001-Caua\obj\Debug\net6.0-windows\refint\Prj-ATV-UC12-001-Caua.dll
+C:\Users\caua.schagas\source\repos\ATV-UC12-001-Caua\Sln-ATV-UC12-001-Caua\Prj-ATV-UC12-001-Caua\obj\Debug\net6.0-windows\Prj-ATV-UC12-001-Caua.pdb
+C:\Users\caua.schagas\source\repos\ATV-UC12-001-Caua\Sln-ATV-UC12-001-Caua\Prj-ATV-UC12-001-Caua\obj\Debug\net6.0-windows\Prj-ATV-UC12-001-Caua.genruntimeconfig.cache
+C:\Users\caua.schagas\source\repos\ATV-UC12-001-Caua\Sln-ATV-UC12-001-Caua\Prj-ATV-UC12-001-Caua\obj\Debug\net6.0-windows\ref\Prj-ATV-UC12-001-Caua.dll
