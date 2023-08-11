@@ -19,7 +19,7 @@ namespace Prj_ATV_UC12_001_Caua
 
         public Correntista()
         {
-          
+
         }
 
         public Correntista(string nomeCliente, string cpfCliente, DateTime dataNasc, decimal rendaMensal)
@@ -32,6 +32,27 @@ namespace Prj_ATV_UC12_001_Caua
             RendaMensal = rendaMensal;
             TipoConta = TipoConta;
 
+        }
+
+        public int verificarSeCorrentistaMaior()
+        {
+            DateTime dataAtual = DateTime.Now;
+            int idade = dataAtual.Year - DataNasc.Year;
+
+            if (dataAtual.Month < DataNasc.Month || (dataAtual.Month == DataNasc.Month && dataAtual.Day < DataNasc.Day))
+            {
+                idade--;
+            }
+            if (idade >= 18)
+            {
+                return idade;
+            }
+            else
+            {
+                return idade;
+            }
+            
+            
         }
 
 

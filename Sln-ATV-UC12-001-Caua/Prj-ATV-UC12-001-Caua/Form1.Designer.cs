@@ -118,7 +118,6 @@
             txtId.Name = "txtId";
             txtId.Size = new Size(128, 23);
             txtId.TabIndex = 1;
-            
             // 
             // btnCadastrar
             // 
@@ -137,6 +136,7 @@
             dtNasc.Name = "dtNasc";
             dtNasc.Size = new Size(243, 23);
             dtNasc.TabIndex = 7;
+            dtNasc.ValueChanged += dtNasc_ValueChanged;
             // 
             // Form1
             // 
