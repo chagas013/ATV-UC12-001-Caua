@@ -39,6 +39,7 @@
             txtId = new TextBox();
             btnCadastrar = new Button();
             dtNasc = new DateTimePicker();
+            lblBoasVindas = new Label();
             SuspendLayout();
             // 
             // lblId
@@ -97,13 +98,16 @@
             txtNome.Name = "txtNome";
             txtNome.Size = new Size(362, 23);
             txtNome.TabIndex = 2;
+            txtNome.TextChanged += txtNome_TextChanged;
             // 
             // txtCpf
             // 
             txtCpf.Location = new Point(206, 217);
+            txtCpf.MaxLength = 11;
             txtCpf.Name = "txtCpf";
             txtCpf.Size = new Size(362, 23);
             txtCpf.TabIndex = 3;
+            txtCpf.TextChanged += txtCpf_TextChanged;
             // 
             // txtRendaMensal
             // 
@@ -111,6 +115,7 @@
             txtRendaMensal.Name = "txtRendaMensal";
             txtRendaMensal.Size = new Size(243, 23);
             txtRendaMensal.TabIndex = 5;
+            txtRendaMensal.TextChanged += txtRendaMensal_TextChanged;
             // 
             // txtId
             // 
@@ -138,11 +143,22 @@
             dtNasc.TabIndex = 7;
             dtNasc.ValueChanged += dtNasc_ValueChanged;
             // 
+            // lblBoasVindas
+            // 
+            lblBoasVindas.AutoSize = true;
+            lblBoasVindas.Font = new Font("Segoe UI", 20F, FontStyle.Regular, GraphicsUnit.Point);
+            lblBoasVindas.Location = new Point(766, 157);
+            lblBoasVindas.Name = "lblBoasVindas";
+            lblBoasVindas.Size = new Size(0, 37);
+            lblBoasVindas.TabIndex = 8;
+            lblBoasVindas.Click += lblBoasVindas_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1142, 523);
+            Controls.Add(lblBoasVindas);
             Controls.Add(dtNasc);
             Controls.Add(btnCadastrar);
             Controls.Add(txtId);
@@ -174,5 +190,6 @@
         private TextBox txtId;
         private Button btnCadastrar;
         private DateTimePicker dtNasc;
+        private Label lblBoasVindas;
     }
 }
