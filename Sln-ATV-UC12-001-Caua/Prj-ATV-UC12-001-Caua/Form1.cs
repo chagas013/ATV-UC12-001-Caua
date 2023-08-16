@@ -24,16 +24,10 @@ namespace Prj_ATV_UC12_001_Caua
                 Correntista correntista = new Correntista(txtNome.Text, txtCpf.Text,
                     Convert.ToDateTime(dtNasc.Text), Convert.ToDecimal(txtRendaMensal.Text));
 
-
-                if (correntista.verificarSeCorrentistaMaior() == true)
-                {
+                               
                     MessageBox.Show($"Cliente cadastrado com sucesso!\nId:{correntista.IdCliente}\n{correntista.NomeCliente}\n{correntista.CpfCliente}\n{correntista.DataNasc}\n{correntista.RendaMensal}\n{correntista.RetornarPerfilCliente()}", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    lblBoasVindas.Text = correntista.MensagemBoasVindas();
-                }
-                else
-                {
-                    MessageBox.Show("Opa! Você não é maior de idade para criar uma conta, sentimos muito!", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                }
+                    lblBoasVindas.Text = correntista.MensagemBoasVindas();              
+                
 
             }
             catch (Exception ex)

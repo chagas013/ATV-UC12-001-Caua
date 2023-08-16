@@ -11,12 +11,12 @@ namespace Prj_ATV_UC12_001_Caua
        
         public int IdCliente { get; set; }
 
-        private string _NomeCliente;
+        private string _nomeCliente;
         public string NomeCliente
         {
             get
             {
-                return _NomeCliente;
+                return _nomeCliente;
 
             }
             set
@@ -25,7 +25,7 @@ namespace Prj_ATV_UC12_001_Caua
                 {
                     throw new Exception("O nome precisa ser preenchido!");
                 }
-                else { this.NomeCliente = value; }
+                else { this._nomeCliente = value; }
             }
         }
 
@@ -38,14 +38,36 @@ namespace Prj_ATV_UC12_001_Caua
             }
             set
             {
-                if (_cpfCliente != value && _cpfCliente == String.Empty)
+                if (value == String.Empty)
                 {
                     throw new Exception("Digite um CPF válido!");
                 }
-                else { this.CpfCliente = value; }
+                else { this._cpfCliente = value; }
             }
-        } 
-        public DateTime DataNasc { get; set; }
+        }
+
+        private DateTime _dataNasc;
+        public DateTime DataNasc
+        {
+            get
+            {
+                return _dataNasc;
+            }
+            set
+            {
+                if ((value > DateTime.Now))
+                {
+                    throw new Exception("Data de Nascimnto não pode ser maior do que a atual!");
+                }
+
+                else if (correntistaMaior(value) == false)
+                {
+                    throw new Exception("Opa! Você não é maior de idade para criar uma conta, sentimos muito!");
+                }
+                else { this._dataNasc = value; }
+               
+            }
+        }
         public decimal RendaMensal { get; set; }
         public static int TotalCliente { get; set; }
         public int? TipoConta { get; set; }
@@ -115,6 +137,25 @@ namespace Prj_ATV_UC12_001_Caua
             return $"Olá, {NomeCliente}!\n" +
                    $"Seja bem vindo ao Sifrão\n" +
                    $"{RetornarPerfilCliente()}";
+        }
+
+        public static bool correntistaMaior(DateTime data) 
+        {
+            DateTime dataAtual = DateTime.Now;
+            int idade = dataAtual.Year - data.Year;
+
+            if (dataAtual.Month < data.Month || (dataAtual.Month == data.Month && dataAtual.Day < data.Day))
+            {
+                idade--;
+            }
+            if (idade >= 18)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
 
